@@ -1,4 +1,4 @@
-# Welcome to the Interactive Audiobook by Lyzr!
+# Welcome to the Social Media Adviser by Lyzr!
 
 ![Lyzr Logo](./logo/lyzr-logo.png)
 

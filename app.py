@@ -44,13 +44,13 @@ original_directory = os.getcwd()
 API_KEY = os.getenv('OPENAI_API_KEY')
 
  
-def qabot_agent():
+def chat_agent():
     path = utils.get_files_in_directory(data)
-    qa_agent = ChatBot.docx_chat(
+    chat_bot = ChatBot.docx_chat(
         input_files=path
     )
 
-    return qa_agent
+    return chat_bot
 
 
 def voicebot_agent(add_summary):
@@ -71,7 +71,7 @@ if __name__ == "__main__":
         file = utils.file_checker()
         if len(file)>0:
             if st.button('Create'):
-                agent = qabot_agent()
+                agent = chat_agent()
                 response = utils.social_media(agent=agent)
                 results = utils.prompts(agent=agent)
                 if response:

@@ -79,7 +79,7 @@ def social_media(agent):
 def prompts(agent):
     results = {}
     prompt = {'Voice_Ad':'create a article summary for advertisment in 150-200 words',
-               'Instagram_post':'create a article summary for instagram post in 50-70 words' }  
+               'Instagram_post':'create a article summary for instagram post in 10-20 words.' }  
 
     for platfrom, prompt in prompt.items():        
         response = agent.chat(prompt)

@@ -84,7 +84,8 @@ if __name__ == "__main__":
                         st.audio(audio_file)  
                         st.markdown('---')
                         st.subheader('Instagram')
-                        insta_image = utils.instagram_img(results['Instagram_post'])
+                        insta_img_prompt = results['Instagram_post'] + " " + "Avoid any text or numbers in the image"
+                        insta_image = utils.instagram_img(insta_img_prompt)
                         st.image(insta_image, caption='Instagram Image', use_column_width=True)
 
     else:

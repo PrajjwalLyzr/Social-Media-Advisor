@@ -1,7 +1,6 @@
 import os
 from PIL import Image
 from utils import utils
-from pathlib import Path
 import streamlit as st
 from dotenv import load_dotenv; load_dotenv()
 from lyzr import VoiceBot, ChatBot
@@ -94,7 +93,7 @@ if __name__ == "__main__":
     
     with st.expander("ℹ️ - About this App"):
         st.markdown("""
-        This app uses Lyzr Agent's to create the social media manager, it uses's ChatBot for RAG, and VoiceBot for audio file, and OpenAI dall-e-3 for image generation. For any inquiries or issues, please contact Lyzr.
+        This app uses Lyzr Agent's to create the social media advisor, it uses's ChatBot for RAG, and VoiceBot for audio file, and OpenAI dall-e-3 for image generation. For any inquiries or issues, please contact Lyzr.
         
         """)
         st.link_button("Lyzr", url='https://www.lyzr.ai/', use_container_width = True)

@@ -2,7 +2,7 @@
 
 ![Lyzr Logo](./logo/lyzr-logo.png)
 
-This Social Media Adviser by Lyzr Agent turns your Medium articles into ready-to-post content for LinkedIn, Instagram, Twitter, and Facebook!  Simplify social media management and save time.
+This Social Media Adviser by Lyzr Agent turns your articles into ready-to-post content for LinkedIn, Instagram, Twitter, and Facebook!  Simplify social media management and save time.
 
 *Note: For this application to function properly in your local system, ensure that the required dependencies are installed and configured correctly, and make sure that you have your OpenAI API Key.*
 
